@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.flexy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-brand{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 2rem;
+}
+
+input::placeholder {
+    color: #e2e2e2 !important;
+}
+
+.styleInput{
+    background-image: linear-gradient(-225deg,#ac32e4 0%,#7918f2 48%,#4801ff 100%);
+}
+
+input{
+    width: 95%;
+    max-width: 40rem;
+    border: 0 !important;
+    color: white;
+}
+
+img{
+    height: 4rem;
+    width: 4rem;
+}
+
+.edit{
+    border-bottom: 1px solid white;
+    font-weight: 500;
+}
+
+.f600{
+    font-weight: 600;
+}
+
+.banner{
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.table{
+    width: 100%;
+    max-width: 75rem;
+}
+
+.unavailable{
+    font-size: 2rem;
+}
